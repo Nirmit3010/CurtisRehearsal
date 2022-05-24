@@ -1,0 +1,52 @@
+.heading
+{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+.note
+{
+    font-size: 15 px;
+    color: black;
+}
+body
+{
+    background-size: cover;
+}
+.div_track1
+{
+    float: left;
+    border-radius: 5px;
+}
+.div_track_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+.track2
+{
+    font-size: 20px;
+    margin: 15px;
+}
+.div_track2
+{
+    float:right;
+    border-radius: 5px;
+}
+.track1
+{
+    font-size: 20px;
+    margin: 15px;
+}
+.play_button
+{
+    width: 130;
+    font-size: 25px;
+}
+canvas
+{
+    margin-top: 100px;
+    border: 5px solid white;
+    border-radius: 20px;
+
+}

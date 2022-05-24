@@ -1,0 +1,49 @@
+ else if (dropdown == "violin") {
+        document.getElementById("sound2").innerHTML = "Sonata No. 3";
+        document.getElementById("sound1").innerHTML = "Liebeslied";
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song6.stop();
+        song7.stop();
+        song8.stop();
+        if (rightWristX > 0 && rightWristX <= 300) {
+            song2.play();
+            song1.stop();
+        } else if (rightWristX > 300 && rightWristX <= 600) {
+            song1.play();
+            song2.stop();
+        }
+    } else if (dropdown == "cello") {
+        document.getElementById("sound2").innerHTML = "Suite No. 1";
+        document.getElementById("sound1").innerHTML = "Le Cygne";
+        song3.stop();
+        song4.stop();
+        song1.stop();
+        song2.stop();
+        song7.stop();
+        song8.stop();
+        if (rightWristX > 0 && rightWristX <= 300) {
+            song6.play();
+            song5.stop();
+        } else if (rightWristX > 300 && rightWristX <= 600) {
+            song5.play();
+            song6.stop();
+        }
+    } else if (dropdown == "voice") {
+        document.getElementById("sound2").innerHTML = "Una Voce Poco Fa";
+        document.getElementById("sound1").innerHTML = "Brindisi";
+        song3.stop();
+        song4.stop();
+        song1.stop();
+        song2.stop();
+        song5.stop();
+        song6.stop();
+        if (rightWristX > 0 && rightWristX <= 300) {
+            song8.play();
+            song7.stop();
+        } else if (rightWristX > 300 && rightWristX <= 600) {
+            song7.play();
+            song8.stop();
+        }
+    }
